@@ -1,41 +1,74 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>My Portfolio</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background: #f4f4f4;
-            text-align: center;
+            background: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: white;
             padding: 40px;
         }
-        .card {
-            background: white;
-            max-width: 500px;
-            margin: auto;
-            padding: 30px;
-            border-radius: 10px;
+        img {
+            width: 150px;
+            border-radius: 50%;
         }
-        a {
-            color: #007acc;
-            text-decoration: none;
+        h1, h2 {
+            color: #333;
+        }
+        .projects div {
+            background: #f7f7f7;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
         }
     </style>
 </head>
 <body>
-    <div class="card">
-        <h1>Hello!! Im Mariia</h1>
-        <p>This is my Portfolio</p>
 
-        <h3>Model</h3>
-        <p>HTML • CSS • GitHub</p>
+<div class="container">
 
-        <h3>Contact</h3>
-        <p>
-            <a href="https://github.com/твоє-ім’я">GitHub</a><br>
-            andrusyshyn.model@gmail.com
-        </p>
+    <img src="photo.jpg" alt="My photo">
+
+    <h1>Mariia Andrusyshyn</h1>
+    <p><strong>Model</strong></p>
+
+    <h2>About Me</h2>
+    <p>
+    I am a new model starting my journey in the fashion industry.
+    I am open to new opportunities and happy to collaborate with photographers, brands, and creatives.
+    </p>
+
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>GitHub</li>
+    </ul>
+
+    <h2>Projects</h2>
+    <div class="projects">
+        <div>
+            <h3>My First Website</h3>
+            <p>A simple personal website built with HTML.</p>
+            <a href="#">View Project</a>
+        </div>
     </div>
+
+    <h2>Contact</h2>
+    <p>
+        Email: your@email.com <br>
+        GitHub: <a href="https://github.com/your-username">your-username</a>
+    </p>
+
+</div>
+
 </body>
 </html>
